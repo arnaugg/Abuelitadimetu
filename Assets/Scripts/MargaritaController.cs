@@ -59,7 +59,7 @@ public class MargaritaController : MonoBehaviour
         if (other.gameObject.tag == "Escalera2")
         {
 
-            if (Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W))
+            if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
             {
                 this.transform.position = lm.spawnEscalera1.position;
             }
