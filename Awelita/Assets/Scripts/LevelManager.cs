@@ -18,7 +18,7 @@ public class LevelManager : MonoBehaviour
     //private Audio Source musicSource;
     public Transform spawnEscalera1;
     public Transform spawnEscalera2;
-    public Transform[] spawnPointsMedicamentos;
+    //public Transform[] spawnPointsMedicamentos;
     public float timeToSpawn;
     public float timePass;
 
@@ -36,16 +36,16 @@ public class LevelManager : MonoBehaviour
         if (timePass >= timeToSpawn)
         {
             //spawnear medicamento
-            spawnPointsMedicamentos();
+            // spawnPointsMedicamentos();
             timePass = 0;
         }
     }
 
-    void spawnPointsMedicamentos()
-    {
-        int random = Random.Range(0, 4);
-        spawnPointsMedicamentos[random];
-    }
+   // void spawnPointsMedicamentos()
+    //{
+       // int random = Random.Range(0, 4);
+       // spawnPointsMedicamentos[random];
+    //}
 
     //decir que mire si hay spawn o no
 }
