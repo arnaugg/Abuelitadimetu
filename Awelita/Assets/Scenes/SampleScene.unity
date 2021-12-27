@@ -873,6 +873,8 @@ MonoBehaviour:
   spawnPoint: {fileID: 1580476438}
   spawnEscalera1: {fileID: 24988689}
   spawnEscalera2: {fileID: 1759271713}
+  timeToSpawn: 0
+  timePass: 0
 --- !u!4 &1445537618
 Transform:
   m_ObjectHideFlags: 0
