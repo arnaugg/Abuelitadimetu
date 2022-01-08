@@ -10,6 +10,8 @@ public class MargaritaController : MonoBehaviour
     public Vector3 camaraOffset;
     private Rigidbody rb;
     private LevelManager lm;
+    public float timeToSpawn;
+    public GameObject medicamento;
 
     // Start is called before the first frame update
     void Start()
@@ -40,9 +42,21 @@ public class MargaritaController : MonoBehaviour
     {
         if(other.gameObject.tag == "Medicamentos")
         {
-            Destroy(other.gameObject);
+            other.gameObject.SetActive(false);
+            Invoke("CuentaAtras", timeToSpawn);
         }
 
+    }
+    void CuentaAtras()
+    {
+        Invoke("Respawn", 5);
+
+    }
+
+    void Respawn()
+    {
+        Instantiate(medicamento);
+        medicamento.SetActive(true);
     }
 
     private void OnTriggerStay(Collider other)
