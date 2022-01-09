@@ -60,9 +60,9 @@
     <Compile Include="Assets\Scripts\MainMenuManager.cs" />
     <Compile Include="Assets\Scripts\WinScreenManager.cs" />
     <Compile Include="Assets\Scripts\LevelManager.cs" />
+    <Compile Include="Assets\Scripts\MedicamentosScript.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\MargaritaController.cs" />
-    <Compile Include="Assets\Scripts\MedicamentosScript.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
