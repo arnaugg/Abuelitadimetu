@@ -15,11 +15,11 @@ C:/Users/gadig/Documents/GitHub/Abuelitadimetu/Awelita
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-57529
+57823
 Successfully changed project path to: C:/Users/gadig/Documents/GitHub/Abuelitadimetu/Awelita
 C:/Users/gadig/Documents/GitHub/Abuelitadimetu/Awelita
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 58.47 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 47.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,168 +35,177 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56140
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001925 seconds.
+Registered in 0.001339 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 47.35 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 36.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.884 seconds
+- Completed reload, in  1.435 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000863 seconds.
+Registered in 0.000604 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.916 seconds
+- Completed reload, in  0.670 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 0.44 ms, found 0 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 57.8 MB.
 System memory in use after: 57.9 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1543.
-Total: 1.805600 ms (FindLiveObjects: 0.115900 ms CreateObjectMapping: 0.035100 ms MarkObjects: 1.592300 ms  DeleteObjects: 0.061300 ms)
+Total: 1.757300 ms (FindLiveObjects: 0.110400 ms CreateObjectMapping: 0.031300 ms MarkObjects: 1.550300 ms  DeleteObjects: 0.050100 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Medicamentos.prefab
-  artifactKey: Guid(561e6cff9500a1443bced1a580fa5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medicamentos.prefab using Guid(561e6cff9500a1443bced1a580fa5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a25e36cd243ea5c2354e83de4ccf729e') in 0.115068 seconds
-  Import took 0.117189 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.898642 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(bb7a3485253dda24d948f8373c144829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(bb7a3485253dda24d948f8373c144829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3209d1aa2d2496123de1fdfeff6d0e2e') in 0.006291 seconds
-  Import took 0.008169 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007180 seconds.
-  path: Assets/Scenes
-  artifactKey: Guid(bb7a3485253dda24d948f8373c144829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(bb7a3485253dda24d948f8373c144829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3209d1aa2d2496123de1fdfeff6d0e2e') in 0.002224 seconds
-  Import took 0.004146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.724663 seconds.
-  path: Assets/Scenes/SampleScene.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a85596190fa18f4fd885df8b8c8d91d6') in 0.007768 seconds
-  Import took 0.010146 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.937592 seconds.
-  path: Assets/Scenes/SampleScene1.unity
-  artifactKey: Guid(9992556cd7809e64b99dfe0e2eefb199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/SampleScene1.unity using Guid(9992556cd7809e64b99dfe0e2eefb199) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9adbe7167088f78096aa994d77b8321b') in 0.007195 seconds
-  Import took 0.009228 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.695211 seconds.
-  path: Assets/Sprites/Awela_Ilde
-  artifactKey: Guid(bf4c0aebab9122b4fa91d1c7f3c91275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde using Guid(bf4c0aebab9122b4fa91d1c7f3c91275) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41fd221a45c10d99bf8178be17c2900f') in 0.006221 seconds
-  Import took 0.008554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.005016 seconds.
-  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png
-  artifactKey: Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png using Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd1a7b1bd0af3c5661b4b415b59730c') in 0.033543 seconds
-  Import took 0.035974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
   path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-3.png
   artifactKey: Guid(30e921054c9b9cd4fbe4cdd43958405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-3.png using Guid(30e921054c9b9cd4fbe4cdd43958405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37181477cd8254e86fa7dc3a7b3cb66b') in 0.014186 seconds
-  Import took 0.016357 seconds .
+Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-3.png using Guid(30e921054c9b9cd4fbe4cdd43958405a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48aeed8de4ae477111c598760e818fb4') in 0.077758 seconds
+  Import took 0.079488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-5.png
+  artifactKey: Guid(37307092ec8aee34cbeb4053442a9ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-5.png using Guid(37307092ec8aee34cbeb4053442a9ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dce92f5ec9f043c3b7adf483634f792a') in 0.010868 seconds
+  Import took 0.012816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000414 seconds.
+  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png
+  artifactKey: Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png using Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f179d73b83beb5a087229dbc0429e22') in 0.052421 seconds
+  Import took 0.054448 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-4.png
+  artifactKey: Guid(ddf2d490ec518d441bb7758cd1c2f4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-4.png using Guid(ddf2d490ec518d441bb7758cd1c2f4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1910d570d7566be68d65be62586118c1') in 0.013741 seconds
+  Import took 0.015611 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000292 seconds.
-  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-5.png
-  artifactKey: Guid(37307092ec8aee34cbeb4053442a9ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-5.png using Guid(37307092ec8aee34cbeb4053442a9ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e584c2c7fc7180d12163d61c64a0a2') in 0.012037 seconds
-  Import took 0.014143 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-4.png
-  artifactKey: Guid(ddf2d490ec518d441bb7758cd1c2f4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-4.png using Guid(ddf2d490ec518d441bb7758cd1c2f4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a03bb2623aead8264c305eb2e044818') in 0.010809 seconds
-  Import took 0.013026 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
   path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-2.png
   artifactKey: Guid(8aa53792f112c0d448f7277f420c64ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-2.png using Guid(8aa53792f112c0d448f7277f420c64ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58e6c716060525907a321cc0526c02c2') in 0.011152 seconds
-  Import took 0.013315 seconds .
+Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-2.png using Guid(8aa53792f112c0d448f7277f420c64ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ea1fb143b584e5a2da0e2f0cc5304d7') in 0.012449 seconds
+  Import took 0.014477 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000360 seconds.
+  Time since last request: 0.000200 seconds.
   path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-6.png
   artifactKey: Guid(3fe215b3d3bf34b4cba8a356ce7b254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-6.png using Guid(3fe215b3d3bf34b4cba8a356ce7b254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47818ec60725c214797ef3030b4bb8a1') in 0.010729 seconds
-  Import took 0.013246 seconds .
+Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-6.png using Guid(3fe215b3d3bf34b4cba8a356ce7b254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a0719329faff113bf642f206a48ec9') in 0.012762 seconds
+  Import took 0.015622 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 28.491809 seconds.
-  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png
-  artifactKey: Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png using Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5cfc0de428a46265122d1e6de082c7c') in 0.028459 seconds
-  Import took 0.030666 seconds .
+  Time since last request: 123.110418 seconds.
+  path: Assets/Sprites/Pastillas
+  artifactKey: Guid(61a1b25db905c0e4c89d09b0635be0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pastillas using Guid(61a1b25db905c0e4c89d09b0635be0e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8c606ee1f4bbf382d2952ebce1d2486') in 0.007555 seconds
+  Import took 0.009432 seconds .
 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001004 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.883 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 0 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 61.0 MB.
-System memory in use after: 61.1 MB.
+Received Import Request.
+  Time since last request: 0.078337 seconds.
+  path: Assets/Sprites/Pastillas/Pasti_1.png
+  artifactKey: Guid(6e5c5662f98f744409cf0821cc065d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pastillas/Pasti_1.png using Guid(6e5c5662f98f744409cf0821cc065d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557d56255cd2c0dd634caa06eecc7a51') in 0.016323 seconds
+  Import took 0.018103 seconds .
 
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1555.
-Total: 1.670200 ms (FindLiveObjects: 0.116400 ms CreateObjectMapping: 0.034900 ms MarkObjects: 1.470300 ms  DeleteObjects: 0.047500 ms)
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/Pastillas/Pasti_2.png
+  artifactKey: Guid(19cd1866f93cefa4687afee0b9584a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pastillas/Pasti_2.png using Guid(19cd1866f93cefa4687afee0b9584a13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c6597f5414e4444fa2f64e1656fd29') in 0.015748 seconds
+  Import took 0.017650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Sprites/Pastillas/Pasti_3.png
+  artifactKey: Guid(a0fab14eac8499448aa5c4aee4ed4c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pastillas/Pasti_3.png using Guid(a0fab14eac8499448aa5c4aee4ed4c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b354292740361b61ed4f442fcca62262') in 0.016641 seconds
+  Import took 0.019443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.166082 seconds.
+  path: Assets/Sprites/Pastillas/Pasti_1.png
+  artifactKey: Guid(6e5c5662f98f744409cf0821cc065d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pastillas/Pasti_1.png using Guid(6e5c5662f98f744409cf0821cc065d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff9df956f86e0479ffb5b7d5bb743b8') in 0.014583 seconds
+  Import took 0.016660 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005117 seconds.
+  path: Assets/Sprites/Pastillas/Pasti_1.png
+  artifactKey: Guid(6e5c5662f98f744409cf0821cc065d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Pastillas/Pasti_1.png using Guid(6e5c5662f98f744409cf0821cc065d4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fff9df956f86e0479ffb5b7d5bb743b8') in 0.011141 seconds
+  Import took 0.013866 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.998430 seconds.
+  path: Assets/Sprites/Nieta_Walk
+  artifactKey: Guid(ddf37d1df30aabb43b30e6d470d2cbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Nieta_Walk using Guid(ddf37d1df30aabb43b30e6d470d2cbc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd45a43bd9b63c1f0b03a4b9a0bc27b4') in 0.007177 seconds
+  Import took 0.008987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067420 seconds.
+  path: Assets/Sprites/Nieta_Walk/Walk cycle 1.png
+  artifactKey: Guid(1ba7732f892988c4faaeaf045e57326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Nieta_Walk/Walk cycle 1.png using Guid(1ba7732f892988c4faaeaf045e57326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '807fa4fe58ec68f50df8d9f1cf2338bd') in 0.017123 seconds
+  Import took 0.019017 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000174 seconds.
+  path: Assets/Sprites/Nieta_Walk/Walk cycle 2.png
+  artifactKey: Guid(a78e4e549fa2bd144bba7e0ab217db5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Nieta_Walk/Walk cycle 2.png using Guid(a78e4e549fa2bd144bba7e0ab217db5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2281565b08437ed956d82197138b323c') in 0.015473 seconds
+  Import took 0.017199 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.787774 seconds.
+  path: Assets/Sprites/Nieta_Walk/Walk cycle 1.png
+  artifactKey: Guid(1ba7732f892988c4faaeaf045e57326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Nieta_Walk/Walk cycle 1.png using Guid(1ba7732f892988c4faaeaf045e57326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476ef1ca5031fe9a3e1b5a4be05efd80') in 0.017991 seconds
+  Import took 0.020393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002261 seconds.
+  path: Assets/Sprites/Nieta_Walk/Walk cycle 1.png
+  artifactKey: Guid(1ba7732f892988c4faaeaf045e57326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Nieta_Walk/Walk cycle 1.png using Guid(1ba7732f892988c4faaeaf045e57326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '476ef1ca5031fe9a3e1b5a4be05efd80') in 0.009911 seconds
+  Import took 0.012291 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
