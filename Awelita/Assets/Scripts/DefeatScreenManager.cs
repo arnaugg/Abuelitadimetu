@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class DefeatScreen : MonoBehaviour
+public class DefeatScreenManager : MonoBehaviour
 {
 
     void Start()
     {
-        
+        Time.timeScale = 1;
     }
 
     public void MainMenu()

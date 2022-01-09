@@ -13,13 +13,16 @@ public class GameManager : MonoBehaviour
     public int minutes; // Variable utilizada para el contador de los minutos en la cuenta atras hacia la pantalla de victoria
     public int current_facts = 0; // Variable utilizada para llevar la cuenta de las curiosidades vistas por el jugador en la pantalla de victoria
     public static GameManager instance;
+    public bool seen_fact_1 = false;
+    public bool seen_fact_2 = false;
+    public bool seen_fact_3 = false;
+    public bool seen_fact_4 = false;
+    public bool seen_fact_5 = false;
     /* ### END OF UI CHANGES (Xavier) ###*/
 
     // Start is called before the first frame update
     void Start()
     {
-        /* ### UI CHANGES (Xavier) ### */
-        // Pruebas para comprobar que todo lo relacionado con la UI funciona correctamente
         if (instance == null)
         {
             instance = this;
@@ -29,7 +32,7 @@ public class GameManager : MonoBehaviour
         {
             Destroy(this.gameObject);
         }
-        /* ### END OF UI CHANGES (Xavier) ###*/
+
     }
 
     // Update is called once per frame
