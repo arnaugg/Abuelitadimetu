@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'es' Physical Memory: 32578 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'es' Physical Memory: 24489 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,424 +11,96 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/kevin/OneDrive/Documents/GitHub/Abuelitadimetu/Awelita
+C:/Users/Arnau/OneDrive/Documentos/GitHub/Abuelitadimetu/Awelita
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59174
-Successfully changed project path to: C:/Users/kevin/OneDrive/Documents/GitHub/Abuelitadimetu/Awelita
-C:/Users/kevin/OneDrive/Documents/GitHub/Abuelitadimetu/Awelita
+63419
+Successfully changed project path to: C:/Users/Arnau/OneDrive/Documentos/GitHub/Abuelitadimetu/Awelita
+C:/Users/Arnau/OneDrive/Documentos/GitHub/Abuelitadimetu/Awelita
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.69 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 34.83 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/kevin/OneDrive/Documents/GitHub/Abuelitadimetu/Awelita/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Arnau/OneDrive/Documentos/GitHub/Abuelitadimetu/Awelita/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f14)
+    Renderer: NVIDIA GeForce GTX 1060 6GB (ID=0x1c03)
     Vendor:   
-    VRAM:     8031 MB
-    Driver:   30.0.14.9729
+    VRAM:     6052 MB
+    Driver:   30.0.14.9676
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56188
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56720
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000948 seconds.
+Registered in 0.001398 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 35.15 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 31.78 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.818 seconds
+- Completed reload, in  1.330 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000704 seconds.
+Registered in 0.000673 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.621 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.37 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1101 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 57.8 MB.
+System memory in use before: 57.9 MB.
 System memory in use after: 57.9 MB.
 
 Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1543.
-Total: 2.045300 ms (FindLiveObjects: 0.297600 ms CreateObjectMapping: 0.080900 ms MarkObjects: 1.570200 ms  DeleteObjects: 0.095800 ms)
+Total: 1.313000 ms (FindLiveObjects: 0.121400 ms CreateObjectMapping: 0.041300 ms MarkObjects: 1.102900 ms  DeleteObjects: 0.046600 ms)
 
 ========================================================================
 Received Import Request.
   path: Assets/Medicamentos.prefab
   artifactKey: Guid(561e6cff9500a1443bced1a580fa5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medicamentos.prefab using Guid(561e6cff9500a1443bced1a580fa5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ac283bcc27d101eb23d262a29fd8b7') in 0.089504 seconds
-  Import took 0.091377 seconds .
+Start importing Assets/Medicamentos.prefab using Guid(561e6cff9500a1443bced1a580fa5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7ac283bcc27d101eb23d262a29fd8b7') in 0.081422 seconds
+  Import took 0.083117 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.000616 seconds.
+Registered in 0.000582 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.38 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.39 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.638 seconds
+- Completed reload, in  0.573 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.36 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 0.40 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1096 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 61.1 MB.
-System memory in use after: 61.1 MB.
+System memory in use after: 61.2 MB.
 
 Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1552.
-Total: 1.313900 ms (FindLiveObjects: 0.161900 ms CreateObjectMapping: 0.052900 ms MarkObjects: 1.063400 ms  DeleteObjects: 0.034700 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 803.395960 seconds.
-  path: Assets/Arboles Jardin
-  artifactKey: Guid(8de9a080a288d3946b2b72acbdea88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arboles Jardin using Guid(8de9a080a288d3946b2b72acbdea88cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '050caf45bab3105c562120dfdcb0d50e') in 0.009546 seconds
-  Import took 0.011295 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.054012 seconds.
-  path: Assets/Arboles Jardin/Arboles Jardin.jpeg
-  artifactKey: Guid(408500f46a00cad49b30954594da6ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Arboles Jardin/Arboles Jardin.jpeg using Guid(408500f46a00cad49b30954594da6ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b42b3bc6424087b2242e71db18d91fd') in 0.032823 seconds
-  Import took 0.034842 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 464.149061 seconds.
-  path: Assets/Valla Jardin
-  artifactKey: Guid(4c55fee0d08d5654e814bf8ddfed6b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Valla Jardin using Guid(4c55fee0d08d5654e814bf8ddfed6b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afde53fc1e26a94672c4954e09264879') in 0.008250 seconds
-  Import took 0.010282 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.037891 seconds.
-  path: Assets/Valla Jardin/Valla-Jardin.png
-  artifactKey: Guid(3f1ae02e48551d442afd8c0f502d2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Valla Jardin/Valla-Jardin.png using Guid(3f1ae02e48551d442afd8c0f502d2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17cd1e5d3571ab5d14a946338147e703') in 0.018973 seconds
-  Import took 0.020762 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 24.498448 seconds.
-  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png
-  artifactKey: Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png using Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8ddb842370b9ddef6433b6d636259b') in 0.054621 seconds
-  Import took 0.057843 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Bathroom/bathroom.png
-  artifactKey: Guid(1f7874fa952f41c4eadbb5b9a23089d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Bathroom/bathroom.png using Guid(1f7874fa952f41c4eadbb5b9a23089d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653d1eb7c116b7b014d892f7cae21601') in 0.259554 seconds
-  Import took 0.261845 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png
-  artifactKey: Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Awela_Ilde/ABUELA_ILDE-1.png using Guid(afaab37e7e1b9f3409a102ad573c3b51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8ddb842370b9ddef6433b6d636259b') in 0.006989 seconds
-  Import took 0.008974 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Bathroom/bathroom.png
-  artifactKey: Guid(1f7874fa952f41c4eadbb5b9a23089d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Bathroom/bathroom.png using Guid(1f7874fa952f41c4eadbb5b9a23089d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '653d1eb7c116b7b014d892f7cae21601') in 0.246801 seconds
-  Import took 0.249342 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.192273 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Garage/garage.png
-  artifactKey: Guid(6265b0a9ead40514f8545e0ca63601c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Garage/garage.png using Guid(6265b0a9ead40514f8545e0ca63601c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ec698a4e8125ec2a10181533540552') in 0.098984 seconds
-  Import took 0.101249 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Kids_Bedroom/kids_bedroom.png
-  artifactKey: Guid(c6f5d38eb2e663147aeb2d719cca326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Kids_Bedroom/kids_bedroom.png using Guid(c6f5d38eb2e663147aeb2d719cca326c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce4c0d0837f684cea4ac38fbe7dcf39') in 0.115572 seconds
-  Import took 0.117544 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000182 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Kitchen/kitchen.png
-  artifactKey: Guid(9759cdeda80045941a0212a76ce32381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Kitchen/kitchen.png using Guid(9759cdeda80045941a0212a76ce32381) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4412d9d17fce91dfa37d4232cccab8d') in 0.146174 seconds
-  Import took 0.148150 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Laundry_Room/laundry_room.png
-  artifactKey: Guid(64802917da8267c48bf50fcb71e83ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Laundry_Room/laundry_room.png using Guid(64802917da8267c48bf50fcb71e83ab2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bc5cae0d7867c97335ef57425d389b') in 0.064481 seconds
-  Import took 0.066381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Living_Room/living_room.png
-  artifactKey: Guid(a0d8d3eac483d3c4d95f6453dfd4b3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Living_Room/living_room.png using Guid(a0d8d3eac483d3c4d95f6453dfd4b3f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00044f6f6e6b3778be01a8b3bfa2baa9') in 0.139975 seconds
-  Import took 0.141934 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Tileset_All/tileset_all.png
-  artifactKey: Guid(3bc2c54afd52a294a841e676f98e2a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Tileset_All/tileset_all.png using Guid(3bc2c54afd52a294a841e676f98e2a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10ff0125e37dc9a54f1bfb3e6e26ef0d') in 0.888296 seconds
-  Import took 0.893940 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Walls_Background/walls_background.png
-  artifactKey: Guid(b01428191b2e1314fb9bd8bef4f7cdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Walls_Background/walls_background.png using Guid(b01428191b2e1314fb9bd8bef4f7cdd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b559f88b4a7ed374de2f012f083c617b') in 0.356423 seconds
-  Import took 0.359633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Parents_Room/parents_room.png
-  artifactKey: Guid(fc48e8b0eb1f14e42b58e3ca82bdd87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Parents_Room/parents_room.png using Guid(fc48e8b0eb1f14e42b58e3ca82bdd87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '677c1e50900bd967048b47284441890c') in 0.098843 seconds
-  Import took 0.100759 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/PSD/mp_house_interiors_tileset_pack.psd
-  artifactKey: Guid(1b40e2c65f322764f98c7ad9c7a17d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/PSD/mp_house_interiors_tileset_pack.psd using Guid(1b40e2c65f322764f98c7ad9c7a17d27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '678b5a760e813f80169895ed8ed9e2f2') in 0.058489 seconds
-  Import took 0.061209 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Sprites/Nieta_Walk/Walk cycle 1.png
-  artifactKey: Guid(1ba7732f892988c4faaeaf045e57326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Nieta_Walk/Walk cycle 1.png using Guid(1ba7732f892988c4faaeaf045e57326e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5706d823f617c80ce023b9aa1de195f8') in 0.012112 seconds
-  Import took 0.014223 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Office/office.png
-  artifactKey: Guid(4a4f3f9dc6be1f641a2d363515561699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels/House_Interiors_Tileset_Pack/Art/Textures/Office/office.png using Guid(4a4f3f9dc6be1f641a2d363515561699) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd297768ade040e1c30c59a4fd81d3ace') in 0.080233 seconds
-  Import took 0.082172 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 52.476950 seconds.
-  path: Assets/Sprites/New Prefab.prefab
-  artifactKey: Guid(d72c4d0127d78054689ab33cdcc8c1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/New Prefab.prefab using Guid(d72c4d0127d78054689ab33cdcc8c1b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '371125ec867354c8bb28e81377d89249') in 0.011507 seconds
-  Import took 0.013424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 60.392249 seconds.
-  path: Assets/Sprites/Valla-Jardin.png
-  artifactKey: Guid(3f1ae02e48551d442afd8c0f502d2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Valla-Jardin.png using Guid(3f1ae02e48551d442afd8c0f502d2515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d6767314813cc3f40e56b8bf5ab2209') in 0.022066 seconds
-  Import took 0.024013 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 36.606919 seconds.
-  path: Assets/MuchoPixels
-  artifactKey: Guid(48d168cf1a20fb7479cc8baf30ba7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/MuchoPixels using Guid(48d168cf1a20fb7479cc8baf30ba7fa3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7914c8e9225b61c15631e2a718f1e425') in 0.009250 seconds
-  Import took 0.011271 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.726674 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arboles Jardin.jpeg
-  artifactKey: Guid(408500f46a00cad49b30954594da6ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arboles Jardin.jpeg using Guid(408500f46a00cad49b30954594da6ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cf20005756845846252d8a57800dfc') in 0.016758 seconds
-  Import took 0.018729 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000498 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arboles Jardin.jpeg
-  artifactKey: Guid(408500f46a00cad49b30954594da6ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arboles Jardin.jpeg using Guid(408500f46a00cad49b30954594da6ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80cf20005756845846252d8a57800dfc') in 0.012041 seconds
-  Import took 0.013804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 379.870432 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbol_Sprite.png
-  artifactKey: Guid(10dd8f22fee37564588278bd3e039620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbol_Sprite.png using Guid(10dd8f22fee37564588278bd3e039620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2379174314bef2494f9e5738dfc04cd3') in 0.011196 seconds
-  Import took 0.013822 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Sprites/Arboles Jardin/Cesped_Sprite.png
-  artifactKey: Guid(6aca5160db37cde4aabe8faa071500be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Cesped_Sprite.png using Guid(6aca5160db37cde4aabe8faa071500be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd516f4489798f9768155e4dae2b83164') in 0.010853 seconds
-  Import took 0.012497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbusto_Sprite.png
-  artifactKey: Guid(f414c9e991368a24ca9757f6f228a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbusto_Sprite.png using Guid(f414c9e991368a24ca9757f6f228a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bbacc7cab36743d3ff0e614557fd9b4') in 0.049991 seconds
-  Import took 0.051747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.139445 seconds.
-  path: Assets/Sprites/Arboles Jardin/Cesped_Sprite.png
-  artifactKey: Guid(6aca5160db37cde4aabe8faa071500be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Cesped_Sprite.png using Guid(6aca5160db37cde4aabe8faa071500be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222092d53594623bc03c874be9afd045') in 0.010894 seconds
-  Import took 0.012818 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000640 seconds.
-  path: Assets/Sprites/Arboles Jardin/Cesped_Sprite.png
-  artifactKey: Guid(6aca5160db37cde4aabe8faa071500be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Cesped_Sprite.png using Guid(6aca5160db37cde4aabe8faa071500be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '222092d53594623bc03c874be9afd045') in 0.004925 seconds
-  Import took 0.006627 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.701997 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbusto_Sprite.png
-  artifactKey: Guid(f414c9e991368a24ca9757f6f228a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbusto_Sprite.png using Guid(f414c9e991368a24ca9757f6f228a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bc2877a69f354136059f89f1f98f6c') in 0.009317 seconds
-  Import took 0.011192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001083 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbusto_Sprite.png
-  artifactKey: Guid(f414c9e991368a24ca9757f6f228a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbusto_Sprite.png using Guid(f414c9e991368a24ca9757f6f228a77f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2bc2877a69f354136059f89f1f98f6c') in 0.005305 seconds
-  Import took 0.007056 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.828109 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbol_Sprite.png
-  artifactKey: Guid(10dd8f22fee37564588278bd3e039620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbol_Sprite.png using Guid(10dd8f22fee37564588278bd3e039620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8564628a55616834a06d7c038a9326e') in 0.013958 seconds
-  Import took 0.016136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbol_Sprite.png
-  artifactKey: Guid(10dd8f22fee37564588278bd3e039620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbol_Sprite.png using Guid(10dd8f22fee37564588278bd3e039620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8564628a55616834a06d7c038a9326e') in 0.006766 seconds
-  Import took 0.009035 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 72.360208 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbol_Sprite.png
-  artifactKey: Guid(10dd8f22fee37564588278bd3e039620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbol_Sprite.png using Guid(10dd8f22fee37564588278bd3e039620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cc2f57136098e0e662595792dfe99c') in 0.011181 seconds
-  Import took 0.013385 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 84.371676 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbol_Sprite_2.png
-  artifactKey: Guid(bd7665c00936d6b459b4cf82f919c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbol_Sprite_2.png using Guid(bd7665c00936d6b459b4cf82f919c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf0b9075be4baa3fb452ce713e91c73') in 0.025264 seconds
-  Import took 0.027112 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.061652 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbol_Sprite_2.png
-  artifactKey: Guid(bd7665c00936d6b459b4cf82f919c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbol_Sprite_2.png using Guid(bd7665c00936d6b459b4cf82f919c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44feea0b4d5c7d183a8f860830a2c32') in 0.014841 seconds
-  Import took 0.016907 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001522 seconds.
-  path: Assets/Sprites/Arboles Jardin/Arbol_Sprite_2.png
-  artifactKey: Guid(bd7665c00936d6b459b4cf82f919c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/Arbol_Sprite_2.png using Guid(bd7665c00936d6b459b4cf82f919c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c44feea0b4d5c7d183a8f860830a2c32') in 0.006175 seconds
-  Import took 0.008059 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1354.167206 seconds.
-  path: Assets/Sprites/Arboles Jardin/a_semi_pixel_art_sky_by_lhikangx_dalp6vy-fullview.jpg
-  artifactKey: Guid(d8545d81d28a98148b5808e422049bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/a_semi_pixel_art_sky_by_lhikangx_dalp6vy-fullview.jpg using Guid(d8545d81d28a98148b5808e422049bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a54013f859dd6ac1c054bc39d6ffab') in 0.015828 seconds
-  Import took 0.018359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 6.280841 seconds.
-  path: Assets/Sprites/Arboles Jardin/a_semi_pixel_art_sky_by_lhikangx_dalp6vy-fullview.jpg
-  artifactKey: Guid(d8545d81d28a98148b5808e422049bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/a_semi_pixel_art_sky_by_lhikangx_dalp6vy-fullview.jpg using Guid(d8545d81d28a98148b5808e422049bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3641fe371ff91feb58a93853269fd690') in 0.011584 seconds
-  Import took 0.013389 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.007143 seconds.
-  path: Assets/Sprites/Arboles Jardin/a_semi_pixel_art_sky_by_lhikangx_dalp6vy-fullview.jpg
-  artifactKey: Guid(d8545d81d28a98148b5808e422049bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Sprites/Arboles Jardin/a_semi_pixel_art_sky_by_lhikangx_dalp6vy-fullview.jpg using Guid(d8545d81d28a98148b5808e422049bc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3641fe371ff91feb58a93853269fd690') in 0.006924 seconds
-  Import took 0.008741 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 64.230400 seconds.
-  path: Assets/Medicamentos.prefab
-  artifactKey: Guid(561e6cff9500a1443bced1a580fa5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Medicamentos.prefab using Guid(561e6cff9500a1443bced1a580fa5d05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e84c63bb95a7f24bb5fcb140f75117bd') in 0.065914 seconds
-  Import took 0.067919 seconds .
+Total: 1.295300 ms (FindLiveObjects: 0.119000 ms CreateObjectMapping: 0.031800 ms MarkObjects: 1.102700 ms  DeleteObjects: 0.040800 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
