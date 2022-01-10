@@ -11,13 +11,21 @@ public class MargaritaController : MonoBehaviour
     private Rigidbody rb;
     private LevelManager lm;
     public float timeToSpawn;
-    public GameObject medicamento;
+    public List <GameObject> medicamento;
+    int medicamentoactivo = 0;
+    public Animator animator;
+
+    public AudioSource walksource;
+    public AudioSource pillsource;
+    public AudioClip walkgrass;
+    public AudioClip walkwood;
 
     // Start is called before the first frame update
     void Start()
     {
         rb = this.GetComponent<Rigidbody>();
         lm = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+        walksource.clip = walkwood;
     }
 
     // Update is called once per frame
@@ -27,14 +35,24 @@ public class MargaritaController : MonoBehaviour
         {
             this.transform.Translate(Vector3.right* speed * Time.deltaTime, Space.World);
             this.transform.eulerAngles = Vector3.zero;
+            animator.SetBool("Walk", true);
+            walksource.Play();
         }
 
-    if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
+    else if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
     {
-    this.transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
-    this.transform.eulerAngles = new Vector3(0, 180, 0);
-    }
+        this.transform.Translate(Vector3.left * speed * Time.deltaTime, Space.World);
+        this.transform.eulerAngles = new Vector3(0, 180, 0);
+            animator.SetBool("Walk", true);
+            walksource.Play();
+        }
+    else
+        {
+            animator.SetBool("Walk", false);
+            walksource.Stop();
+        }
         camara.position = this.transform.position + camaraOffset;
+    
     }
 
 
@@ -42,8 +60,18 @@ public class MargaritaController : MonoBehaviour
     {
         if(other.gameObject.tag == "Medicamentos")
         {
+            pillsource.Play();
             other.gameObject.SetActive(false);
             Invoke("CuentaAtras", timeToSpawn);
+            GameManager.instance.remaining_time += 15;
+            if (GameManager.instance.remaining_time > GameManager.instance.initial_time)
+            {
+                GameManager.instance.remaining_time = GameManager.instance.initial_time;
+            }
+        }
+        else if(other.gameObject.tag == "Jardin")
+        {
+            walksource.clip = walkgrass;
         }
 
     }
@@ -55,8 +83,8 @@ public class MargaritaController : MonoBehaviour
 
     void Respawn()
     {
-        Instantiate(medicamento);
-        medicamento.SetActive(true);
+         medicamentoactivo = Random.Range(0, medicamento.Count);
+        medicamento[medicamentoactivo].SetActive(true);
     }
 
     private void OnTriggerStay(Collider other)
@@ -79,5 +107,14 @@ public class MargaritaController : MonoBehaviour
             }
         }
        
+    }
+
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Jardin")
+        {
+            walksource.clip = walkwood;
+        }
     }
 }

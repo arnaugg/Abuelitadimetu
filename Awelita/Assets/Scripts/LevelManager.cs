@@ -26,6 +26,11 @@ public class LevelManager : MonoBehaviour
     public float timeToSpawn;
     public float timePass;
 
+    public AudioSource musicsource;
+    public AudioSource clicksource;
+
+    public List<GameObject> objetos_a_desaparecer;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,11 +41,11 @@ public class LevelManager : MonoBehaviour
         /* ### UI CHANGES (Xavier) ###*/
         GameManager.instance.seconds_units = 0;
         GameManager.instance.seconds_tens = 0;
-        GameManager.instance.minutes = 5; //"Aun Por Determinar"
+        GameManager.instance.minutes = 5; 
         StartCoroutine(Victory_CountDown());
 
 
-        GameManager.instance.initial_time = 200; //"Aun Por Determinar";
+        GameManager.instance.initial_time = 100; //"Aun Por Determinar";
         GameManager.instance.remaining_time = GameManager.instance.initial_time;
         StartCoroutine(Defeat_CountDown());
         /*### END OF UI CHANGES (Xavier) ###*/
@@ -73,6 +78,7 @@ public class LevelManager : MonoBehaviour
     // En este apartado de codigo se realizan todas las operciones involucradas con el contador hacia la pantalla de victoria. En esta funcion se actualiza el texto de la UI que muestra este contador al jugador y se redirige al jugador a la pantalla de victoria si se agota el tiempo
     IEnumerator Victory_CountDown()
     {
+        
         do
         {
 
@@ -88,6 +94,8 @@ public class LevelManager : MonoBehaviour
             {
                 GameManager.instance.seconds_units = 9;
                 GameManager.instance.seconds_tens -= 1;
+                
+                    desaparecerobjeto();
 
                 if (GameManager.instance.seconds_tens < 0)
                 {
@@ -96,6 +104,8 @@ public class LevelManager : MonoBehaviour
                 }
 
             }
+
+
 
         } while (GameManager.instance.minutes >= 0);
 
@@ -115,7 +125,6 @@ public class LevelManager : MonoBehaviour
 
             clock.fillAmount = GameManager.instance.time_fill_amount;
 
-
         } while (GameManager.instance.remaining_time >= 0);
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2); // Escena de la pantalla de derrota (Aun Por Determinar)
@@ -124,6 +133,7 @@ public class LevelManager : MonoBehaviour
     // Este apartado de codigo se encarga de que el juego cierre el menu de pausa si se pulsa el boton de continuar
     public void Continue()
     {
+        clicksource.Play();
         Time.timeScale = 1;
         panelPause.SetActive(false);
     }
@@ -131,15 +141,41 @@ public class LevelManager : MonoBehaviour
     // Este apartado de codigo se encarga de que el juego redirija al jugador al menu principal si se pulsa el boton de ir al menu principal en el menu de pausa
     public void MainMenu()
     {
+        clicksource.Play();
         SceneManager.LoadScene(0);
     }
 
     // Este apartado de codigo se encarga de que el juego despliegue el menu de pausa si se pulsa el boton de pausa
     public void PauseMenu()
     {
+        clicksource.Play();
         Time.timeScale = 0;
         panelPause.SetActive(true);
     }
+
+    public void desaparecerobjeto()
+    {
+        int azar = Random.Range(0, objetos_a_desaparecer.Count);
+        StartCoroutine(thanos(objetos_a_desaparecer[azar]));
+        objetos_a_desaparecer.RemoveAt(azar);
+    }
+
+    IEnumerator thanos(GameObject objeto)
+    {
+        float tiempo = 0;
+        Color colorobjeto = Color.white;
+        while  (tiempo <= 2)
+        {
+            tiempo += Time.deltaTime;
+            colorobjeto.a -= Time.deltaTime;
+            for (int i = 0; i < objeto.transform.childCount; i++)
+            {
+                objeto.transform.GetChild(i).GetComponent<SpriteRenderer>().color = colorobjeto;
+            }
+            yield return null;
+        }
+    }
+
 
     /*### END OF UI CHANGES (Xavier) ###*/
 }

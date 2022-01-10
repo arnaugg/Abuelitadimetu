@@ -8,6 +8,7 @@ TagManager:
   - Medicamentos
   - Escalera2
   - Medicamentos2
+  - Jardin
   layers:
   - Default
   - TransparentFX
